@@ -7,6 +7,8 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { DetailsComponent } from './details/details.component';
 import { AddReviewComponent } from './add-review/add-review.component';
+import { PicturesComponent } from './pictures/pictures.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { AddReviewComponent } from './add-review/add-review.component';
     SearchBarComponent,
     NavBarComponent,
     DetailsComponent,
-    AddReviewComponent
+    AddReviewComponent,
+    PicturesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule

@@ -1,0 +1,8 @@
+.pics{
+  margin-top: 170px;
+  float: right;
+}
+
+img:hover{
+  transform: scale(1.5, 1.5);
+}

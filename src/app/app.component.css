@@ -1,3 +1,11 @@
 .container{
-  width: 75%;
+  width: 90%;
+}
+
+.col-sm-4{
+  padding-right: 0;
+}
+
+.col-sm-8{
+  padding-left: 0;
 }
