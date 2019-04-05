@@ -3,13 +3,22 @@
 }
 
 .container{
-  width: 66%;
+  width: 75%;
 }
 
-/* #search{
+.foat{
+  float: right;
+}
+
+.btn-white{
   background: white;
 }
 
-#search, #logo, #buttons{
-    display: inline-block;
-} */
+.btn-red{
+  border-color: #cc0000;
+  color: white;
+}
+
+.btn-serch{
+  background: #cc0000;
+}
