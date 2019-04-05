@@ -5,7 +5,7 @@
 #### By _**Olha Wysocky**_
 
 ## Description
-_This is a rebuilt Yelp website._
+_This is a rebuilt Yelp website https://www.yelp.com/biz/dukes-seafood-and-chowder-bellevue-bellevue-3?osq=Restaurants._
 
 ## Known Bugs
 _No known bugs._
