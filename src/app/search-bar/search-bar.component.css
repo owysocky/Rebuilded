@@ -6,8 +6,19 @@
   width: 75%;
 }
 
-.foat{
-  float: right;
+.float{
+  align-items:center;
+  display: inline;
+  margin-top: 10px;
+}
+
+.serch-bar{
+  display: inline;
+  background-color: white;
+}
+
+input{
+  border: none;
 }
 
 .btn-white{
