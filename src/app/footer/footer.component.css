@@ -1,3 +1,24 @@
-img {
-  text-align: center;
+.container{
+  width: 80%;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.footer{
+  background-color: #f6f6f6;
+}
+
+p{
+  color: red;
+}
+
+a{
+  font-size: 12px;
 }
