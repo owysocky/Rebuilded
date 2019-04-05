@@ -35,8 +35,8 @@
   display: block;
 }
 
-.dropdown-content a:hover {color: blue;}
+.dropdown-content a:hover {color: #66d9ff;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {color: blue;}
+.dropdown:hover .dropbtn {color: #66d9ff;}
