@@ -51,4 +51,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 MIT
 **
 
-Copyright (c) 2019 **_Olha Wysocky and Jared Hanson_**
+Copyright (c) 2019 **_Olha Wysocky_**
