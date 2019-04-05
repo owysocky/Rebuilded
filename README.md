@@ -1,6 +1,26 @@
-# Yelp
+# _Rebuilding a Site with Angular_
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+#### _4/05/2019_
+
+#### By _**Olha Wysocky**_
+
+## Description
+_This is a rebuilt Yelp website._
+
+## Known Bugs
+_No known bugs._
+
+## Installation Requirements
+* _Download and install Node.js_
+* _Download and install TypeScript_
+
+## Setup instructions
+* _On GitHub, navigate to the main page of the repository._
+* _On the right find the green button "Clone or download", click it._
+* _To clone the repository in Desktop choose "Open in Desktop" or download the ZIP file._
+* _For more information, see "Cloning a repository from GitHub to GitHub Desktop."_
+* _Use Terminal to install the webpack $ npm install._
+* _Use Terminal to run the program with command $ ng serve._
 
 ## Development server
 
@@ -22,6 +42,13 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## Technologies Used
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* _TypeScript_
+* _HTML_
+
+### License
+MIT
+**
+
+Copyright (c) 2019 **_Olha Wysocky and Jared Hanson_**
