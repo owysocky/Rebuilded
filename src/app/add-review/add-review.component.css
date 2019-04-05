@@ -1,0 +1,13 @@
+.float{
+  float:right;
+  margin-top: 15%;
+}
+
+.btn-large{
+  background-color: red;
+  color: white;
+}
+
+.btn-sm{
+  color: #3c3f42;
+}
