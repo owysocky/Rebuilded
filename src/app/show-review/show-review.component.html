@@ -1,3 +1,7 @@
-<p>
-  show-review works!
-</p>
+<h1>review</h1>
+
+<div *ngFor="let review of reviews | async" class="panel panel-default">
+  <div class="panel-body">
+    <h3>Stars:<em>{{review.stars}}</em> Review: {{review.review}}</h3>
+  </div>
+</div>
