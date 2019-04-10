@@ -9,26 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { NewReviewComponent } from './new-review/new-review.component';
 
 const appRoutes: Routes = [
-  {
-    path: '',
-    component: SearchBarComponent
-  },
-  {
-    path: '',
-    component: NavBarComponent
-  },
-  {
-    path: '',
-    component: DetailsComponent
-  },
-  {
-    path: '',
-    component: PicturesComponent
-  },
-  {
-    path: '',
-    component: FooterComponent
-  },
+  
   {
     path: 'new-review',
     component: NewReviewComponent

@@ -14,7 +14,14 @@ import { routing } from './app.routing';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { ShowReviewComponent } from './show-review/show-review.component';
 
+export const firebaseConfig = {
+  apiKey: masterFirebaseConfig.apiKey,
+  authDomain: masterFirebaseConfig.authDomain,
+  databaseURL: masterFirebaseConfig.databaseURL,
+  storageBucket: masterFirebaseConfig.storageBucket
+};
 
 @NgModule({
   declarations: [
@@ -25,7 +32,8 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
     AddReviewComponent,
     PicturesComponent,
     FooterComponent,
-    NewReviewComponent
+    NewReviewComponent,
+    ShowReviewComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,11 @@
+{ "reviews": [{
+    "review": "A nice place in DownTown Bellevue",
+    "stars": "4"
+  }, {
+    "review": "The clam chowder is the best I have ever tried",
+    "stars": "5"
+  }, {
+    "review": "Service is very good",
+    "stars": "4"
+  }]
+}
