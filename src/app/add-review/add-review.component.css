@@ -11,3 +11,8 @@
 .btn-sm{
   color: #3c3f42;
 }
+
+a {
+  color: white;
+  text-decoration: none !important;
+}

@@ -9,6 +9,11 @@ import { DetailsComponent } from './details/details.component';
 import { AddReviewComponent } from './add-review/add-review.component';
 import { PicturesComponent } from './pictures/pictures.component';
 import { FooterComponent } from './footer/footer.component';
+import { NewReviewComponent } from './new-review/new-review.component';
+import { routing } from './app.routing';
+import { masterFirebaseConfig } from './api-keys';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
 
 
 @NgModule({
@@ -19,10 +24,12 @@ import { FooterComponent } from './footer/footer.component';
     DetailsComponent,
     AddReviewComponent,
     PicturesComponent,
-    FooterComponent
+    FooterComponent,
+    NewReviewComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
