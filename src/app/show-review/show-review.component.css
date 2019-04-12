@@ -1,0 +1,7 @@
+.show{
+  display: none;
+}
+
+.hover-me:hover + .show{
+  display: block;
+}
