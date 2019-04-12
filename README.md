@@ -69,6 +69,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 * _TypeScript_
 * _HTML_
+* _Angular_
 
 ### License
 MIT
