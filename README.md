@@ -5,10 +5,16 @@
 #### By _**Olha Wysocky**_
 
 ## Description
-_This is a rebuilt Yelp website https://www.yelp.com/biz/dukes-seafood-and-chowder-bellevue-bellevue-3?osq=Restaurants._
+_This is a rebuilt Yelp website https://www.yelp.com/biz/dukes-seafood-and-chowder-bellevue-bellevue-3?osq=Restaurants. All functionality descripted below._
 
 ## Known Bugs
 _No known bugs._
+
+## Specs
+* _Reusable components._
+* _Router to 'Write Review' page._
+* _Firebase Database for reviews_
+* _User can add and see review on the main page.__
 
 ## Installation Requirements
 * _Download and install Node.js_

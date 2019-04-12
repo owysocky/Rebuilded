@@ -14,10 +14,14 @@ export class ShowReviewComponent implements OnInit {
 
   reviews: FirebaseListObservable<any[]>;
 
-  constructor(private router: Router, private reviewService: ReviewService) { }
+  constructor(private router: Router, private reviewService: ReviewService) {}
 
   ngOnInit() {
     this.reviews = this.reviewService.getReviews();
+  }
+
+  countReviews(reviews){
+    return reviews;
   }
 
 }
