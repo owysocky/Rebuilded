@@ -1,0 +1,35 @@
+.search-bar{
+  background: red;
+}
+
+.container{
+  width: 90%;
+}
+
+.float{
+  align-items:center;
+  display: inline;
+  margin-top: 10px;
+}
+
+.serch-bar{
+  display: inline;
+  background-color: white;
+}
+
+input{
+  border: none;
+}
+
+.btn-white{
+  background: white;
+}
+
+.btn-red{
+  border-color: #cc0000;
+  color: white;
+}
+
+.btn-serch{
+  background: #cc0000;
+}
