@@ -13,8 +13,9 @@ _No known bugs._
 ## Specs
 * _Reusable components._
 * _Router to 'Write Review' page._
-* _Firebase Database for reviews_
-* _User can add and see review on the main page.__
+* _Firebase Database for reviews._
+* _User can add and see review on the main page._
+* _Stars in review section are shown accordingly to rating._
 
 ## Installation Requirements
 * _Download and install Node.js_
