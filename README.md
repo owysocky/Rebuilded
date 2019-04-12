@@ -14,6 +14,22 @@ _No known bugs._
 * _Download and install Node.js_
 * _Download and install TypeScript_
 
+##Database Requirements
+* _Make an account at https://firebase.google.com/ website._
+* _Click Crate New Project._
+* _Select Add Firebase to your web app._
+* _In the project folder src/app create file 'api-keys.ts'._
+* _Enter Firebase information to 'api-keys.ts' in this format:_
+  *  _export const masterFirebaseConfig = {_
+  *  _apiKey: "xxxx",_
+  *  _authDomain: "xxxx.firebaseapp.com",_
+  *  _databaseURL: "https://xxxx.firebaseio.com",_
+  *  _storageBucket: "xxxx.appspot.com",_
+  *  _messagingSenderId: "xxxx"_
+  *  _};_
+* _Import file 'sample-views.json' to your Firebase project._
+* _In Firebase at Realtime DB page set Rules from false to true._
+
 ## Setup instructions
 * _On GitHub, navigate to the main page of the repository._
 * _On the right find the green button "Clone or download", click it._
