@@ -1,19 +1,19 @@
 <!-- <div>
-  <input (change)="onSelection(value)" type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Rocks!">5 stars</label>
-  <input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Pretty good">4 stars</label>
-  <input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Meh">3 stars</label>
-  <input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Kinda bad">2 stars</label>
-  <input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>
+  <input (change)="onSelection(value)" type="radio" id="star5" name="rating" value="5" /><label for="star5">5</label>
+  <input type="radio" id="star4" name="rating" value="4" /><label for="star4">4</label>
+  <input type="radio" id="star3" name="rating" value="3" /><label for="star3">3</label>
+  <input type="radio" id="star2" name="rating" value="2" /><label for="star2">2</label>
+  <input type="radio" id="star1" name="rating" value="1" /><label for="star1">1</label>
 </div> -->
 
+<div *ngFor="let star of stars">
+  <input (change)="onSelection($event)" type="radio" name="radiogroup" value="{{star}}">
+</div>
 
 <div>
-  <label>Stars</label>
-  <br>
-  <input #newStars>
   <label>Review</label>
   <br>
   <input #newReview>
 </div>
 
- <button (click)="submitForm(newReview.value, newStars.value); newReview.value= ''; newStars.value =''">Add</button>
+ <button (click)="submitForm(newReview.value); newReview.value= ''">Add</button>

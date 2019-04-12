@@ -15,14 +15,15 @@ export class NewReviewComponent implements OnInit {
   ngOnInit() {
   }
 
-  // selectedEntry: string;
-  //
-  //   onSelection(entry) {
-  //       this.selectedEntry = entry;
-  //   }
+  stars: string[] = ["1", "2", "3", "4", "5"];
+  selectedEntry: string;
 
-  submitForm(review: string, stars: string){
-    var newReview: Review = new Review(review, stars);
+  onSelection(entry) {
+      this.selectedEntry = entry.target.value;
+  }
+
+  submitForm(review: string){
+    var newReview: Review = new Review(review, this.selectedEntry);
     this.reviewService.addReviews(newReview);
   }
 
