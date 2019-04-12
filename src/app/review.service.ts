@@ -14,4 +14,8 @@ export class ReviewService {
   getReviews(){
     return this.reviews;
   }
+
+  addReviews(newReview: Review){
+    this.reviews.push(newReview);
+  }
 }
