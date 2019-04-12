@@ -14,7 +14,7 @@ _No known bugs._
 * _Download and install Node.js_
 * _Download and install TypeScript_
 
-##Database Requirements
+## Database Requirements
 * _Make an account at https://firebase.google.com/ website._
 * _Click Crate New Project._
 * _Select Add Firebase to your web app._
