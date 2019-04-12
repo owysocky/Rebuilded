@@ -18,6 +18,7 @@ import { ShowReviewComponent } from './show-review/show-review.component';
 import { ReviewService } from './review.service';
 import { RestaurantPageComponent } from './restaurant-page/restaurant-page.component';
 import { HeaderComponent } from './header/header.component';
+import { MoreInfoComponent } from './more-info/more-info.component';
 
 
 export const firebaseConfig = {
@@ -39,7 +40,8 @@ export const firebaseConfig = {
     NewReviewComponent,
     ShowReviewComponent,
     RestaurantPageComponent,
-    HeaderComponent
+    HeaderComponent,
+    MoreInfoComponent
   ],
   imports: [
     BrowserModule,
