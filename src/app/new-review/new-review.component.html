@@ -1,10 +1,10 @@
 <app-header></app-header>
 <br>
-<br>
 <div class="container">
+  <h1><a href="#">Dukes Seafood & Chowder</a></h1>
   <div class="line">
-    <div *ngFor="let star of stars">
-      <input (change)="onSelection($event)" type="radio" name="radiogroup" value="{{star}}">
+    <div>
+      <input *ngFor="let star of stars" (change)="onSelection($event)" type="radio" name="radiogroup" value="{{star}}">
     </div>
 
     <div>
@@ -13,4 +13,5 @@
   </div>
   <br>
   <a routerLink=""><button class="btn" (click)="submitForm(newReview.value); newReview.value= ''">Add</button></a>
+  <a class="link" href="#">Read our review guidelines</a>
 </div>
