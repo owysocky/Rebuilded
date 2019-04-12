@@ -1,7 +1,23 @@
-<h1>review</h1>
+<br>
+<div class="row">
+  <div class="col-sm-9">
+    <div *ngFor="let review of reviews | async">
+    <hr>
+    <div class="row">
+      <div class="col-sm-5">
+        <p>The user here</p>
+      </div>
 
-<div *ngFor="let review of reviews | async" class="panel panel-default">
-  <div class="panel-body">
-    <h3>Stars:<em>{{review.stars}}</em> Review: {{review.review}}</h3>
+      <div class="col-sm-7">
+
+        <h3>Stars:<em>{{review.stars}}</em> Review: {{review.review}}</h3>
+
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="line col-sm-3">
+    <p>Hours:</p>
   </div>
 </div>

@@ -16,6 +16,7 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { ShowReviewComponent } from './show-review/show-review.component';
 import { ReviewService } from './review.service';
+import { RestaurantPageComponent } from './restaurant-page/restaurant-page.component';
 
 
 export const firebaseConfig = {
@@ -35,7 +36,8 @@ export const firebaseConfig = {
     PicturesComponent,
     FooterComponent,
     NewReviewComponent,
-    ShowReviewComponent
+    ShowReviewComponent,
+    RestaurantPageComponent
   ],
   imports: [
     BrowserModule,

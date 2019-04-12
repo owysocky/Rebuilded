@@ -1,15 +1,14 @@
 import {ModuleWithProviders} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
-import { SearchBarComponent } from './search-bar/search-bar.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
-import { DetailsComponent } from './details/details.component';
-import { AddReviewComponent } from './add-review/add-review.component';
-import { PicturesComponent } from './pictures/pictures.component';
-import { FooterComponent } from './footer/footer.component';
 import { NewReviewComponent } from './new-review/new-review.component';
+import { RestaurantPageComponent } from './restaurant-page/restaurant-page.component'
+
 
 const appRoutes: Routes = [
-  
+  {
+    path: '',
+    component: RestaurantPageComponent
+  },
   {
     path: 'new-review',
     component: NewReviewComponent

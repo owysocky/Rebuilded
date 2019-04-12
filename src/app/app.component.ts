@@ -7,7 +7,5 @@ import {Review} from './models/review.model'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-    reviewListMain: Review[] = [
-    new Review('A first review of this restaurant. It was good.', '4')
-  ];
+
 }
