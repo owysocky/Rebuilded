@@ -5,12 +5,19 @@
     <hr>
     <div class="row">
       <div class="col-sm-5">
-        <p>The user here</p>
+        <img src="../assets/img/User.png" height="100px" alt="user">
       </div>
 
       <div class="col-sm-7">
-
-        <h3>Stars:<em>{{review.stars}}</em> Review: {{review.review}}</h3>
+        <div class="stars">
+          <img *ngIf="review.stars == 0" src="../assets/img/0stars.png" alt="logo" height="20">
+          <img *ngIf="review.stars == 1" src="../assets/img/1stars.png" alt="logo" height="20">
+          <img *ngIf="review.stars == 2" src="../assets/img/2stars.png" alt="logo" height="20">
+          <img *ngIf="review.stars == 3" src="../assets/img/3stars.png" alt="logo" height="20">
+          <img *ngIf="review.stars == 4" src="../assets/img/4stars.png" alt="logo" height="20">
+          <img *ngIf="review.stars == 5" src="../assets/img/5stars.png" alt="logo" height="20">
+        </div>
+        <h3>Review: {{review.review}}</h3>
 
       </div>
     </div>
